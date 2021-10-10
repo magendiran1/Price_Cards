@@ -1,0 +1,50 @@
+.cards {
+    background: rgb(101, 101, 248);
+    margin: auto 20px;
+}
+
+.price-list {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.design-card {
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 3px -108px 400px 200px rgba(255, 255, 255, 0.47);
+}
+
+.design-card:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    list-style: none;
+}
+
+hr {
+    margin: 0px 20px;
+}
+
+.btn {
+    text-align: center;
+    width: 25vw;
+    padding: 20px;
+}
+
+button {
+    width: 70%;
+    background: rgb(123, 123, 250);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
